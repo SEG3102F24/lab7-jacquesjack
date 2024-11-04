@@ -1,0 +1,12 @@
+
+<div style="margin-top: 30px;">
+  <label for="id">Enter Author Id:</label>
+  <input type="text" #authorQuery id="id">
+  <button (click)="submit(authorQuery.value)">Search</button>
+</div>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+
